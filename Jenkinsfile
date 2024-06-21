@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                input "Jak to działa?"
                 sh 'python --version'
             }
         }
